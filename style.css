@@ -1,0 +1,113 @@
+@font-face {
+    font-family: "roboto";
+    src: url("Roboto-Regular.ttf");
+}
+body{
+    font-family: "roboto";
+    background-color: aliceblue;
+}
+.landingflex {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color:white;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    margin-top: 100px;
+    width: 350px;
+    margin: 0px auto;
+    border-radius: 20px;
+}
+input{
+    width: 250px;
+    padding: 5px;
+    margin-bottom: 20px;
+    font-family: "roboto";
+    background-color: whitesmoke;
+    color: black;
+}
+.landingflex h1{
+    padding-bottom: 50px;
+    font-size: 3em;
+}
+
+#login {
+    font-family: "roboto";
+    font-size: 1.1em;
+    font-weight: bold;
+    width:265px;
+    background-color: cornflowerblue;
+    color: white;
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.filler{
+    background-color:  #f1f1f1;
+    width: 100%;
+}
+
+.topbar{
+    display:flex;
+    flex-direction: row;
+    background-color:#f1f1f1;
+}
+
+.dropbtn{
+    min-width: 160px;
+    z-index: 1;
+    color: black;
+    padding: 12px 16px;
+    padding-left: 15px;
+    text-decoration: none;
+    display: block;
+    color:whitesmoke;
+    font-size: 1.1em;
+    font-weight: bold;
+}
+.dropdown {
+    background-color: #2299fa;
+    position: relative; 
+    font-weight: bold;
+    border-right: solid black;
+    min-width: 160px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    padding-right: 4px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+  
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    min-width: 160px;
+    border-left: solid black;
+    border-right: solid black;
+    border-bottom: solid black;
+  }
+
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+  
+.dropdown:hover {background-color: #0a4bff;}
+
+.dropdown-content a.active{
+    text-decoration: underline solid cornflowerblue;
+    font-weight: bold;
+    color: cornflowerblue;
+}
