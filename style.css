@@ -50,9 +50,14 @@ input{
 }
 
 .topbar{
+    position: sticky;
+    top: 0;
     display:flex;
     flex-direction: row;
     background-color:#f1f1f1;
+    justify-content: space-between;
+
+
 }
 
 .dropbtn{
@@ -76,6 +81,7 @@ input{
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     padding-right: 4px;
+    
 }
 
 .dropdown-content {
@@ -110,4 +116,102 @@ input{
     text-decoration: underline solid cornflowerblue;
     font-weight: bold;
     color: cornflowerblue;
+}
+
+.loginsignup {
+    display: flex;
+    margin-right: 20px;
+    align-content: center;
+    justify-content: end;
+}
+.loginsignup p {
+    padding: 10px 40px;
+    margin-left: 10px;
+    align-content: center;
+    justify-content: center;
+    background-color: #2299fa;
+    border-radius: 10px;
+    vertical-align:middle;
+    text-align: center;
+    color:whitesmoke;
+    font-size: 1.1em;
+    font-weight: bold;
+    border: solid black 2px;
+}
+.feedcontent{
+    display: flex;
+    flex-direction: column;
+    background-color: #f1f1f1;
+    align-items: center;
+}
+.post {
+    display:flex;
+    flex-direction: column;
+    background-color: #f1f1f1;
+    border: solid black;
+    border-radius: 15px;
+    width: 500px;
+    align-content: center;
+    margin-bottom: 15px;
+}
+.postheader {
+    background-color: #f1f1f1;
+    padding-left: 20px;
+    align-items: center;
+    display: flex;
+    font-weight: bold;
+}
+.postdetails {
+    background-color: #f1f1f1;
+    padding-left: 20px;
+    padding-bottom: 10px;
+}
+.likes {
+    padding-left: 20px;
+}
+.profilepicture{
+    border-radius: 20px;
+    margin-right: 15px;
+}
+.profilepicture2{
+    border-radius: 100px;
+    margin-right: 50px;
+}
+
+.accountdetails{
+    display:flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 500px;
+    font-size: 1.1em;
+}
+.followmessagebuttons {
+    display:flex;
+    flex-direction: row;
+}
+.followmessagebuttons p {
+    padding: 5px 20px;
+    background-color: #2299fa;
+    margin: 0px 20px;
+    border-radius: 15px;
+}
+.posts{
+    display:flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    width: 500px;
+    margin: 0 auto;
+}
+.accountimg{
+    max-width: 150px;
+    margin: 5px;
+}
+.topandbottom {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.description {
+    justify-content: center;
+    margin: 0 auto;
 }
